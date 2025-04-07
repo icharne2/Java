@@ -39,3 +39,29 @@ Key Features:
 - Counter-clockwise spiral traversal of matrices
 - Custom exception types for validating algorithm inputs
 - Usage of custom collections and overriding base Java class behaviors
+
+  ## Java Unit Testing with JUnit5 and Maven
+
+This project contains a comprehensive set of unit tests written using the JUnit5 framework.  
+It covers algorithmic logic, exception handling, and performance evaluation across multiple Java modules.  
+The test suites are organized to ensure maintainability, meaningful coverage, and clarity of test intent.
+
+Key Highlights:
+- Full use of JUnit5 features including assertions, test suites, and lifecycle annotations
+- Performance tests and validation of exception-throwing behavior
+- Organized structure with meaningful test case names and scenarios
+- Code coverage optimization with IDE tools (e.g., IntelliJ IDEA)
+- Maven-based build system with dependency management and test execution
+
+## Java Swing GUI 
+This project implements a desktop application using Java Swing for managing car showrooms and vehicles.  
+It combines a custom business logic layer with an interactive graphical interface, allowing users to manage showrooms, add/remove/search vehicles, and sort or filter data dynamically.
+
+Key Features:
+- Object-oriented model with classes like Vehicle, CarShowroom, and CarShowroomContainer
+- Full GUI built with Swing components such as JTable, JButton, JComboBox, and JOptionPane
+- Dynamic views with support for filtering, sorting, and real-time updates
+- Custom `AbstractTableModel` implementation for generic data binding
+- Clean architecture with clear separation between UI and logic layers
+- Exception handling with user feedback via dialog panels
+- Optional features like text filtering and state-based filtering with dropdowns
